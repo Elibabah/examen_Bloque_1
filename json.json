@@ -1,0 +1,51 @@
+{
+    "myArray": [{
+            "name": "David",
+            "lastname": "Heich",
+            "age": 29,
+            "birthday": "February 16"
+        },
+        {
+            "name": "Alberto",
+            "lastname": "Gutiérrez",
+            "age": 30,
+            "birthday": "July 13"
+        },
+        {
+            "name": "Amanda",
+            "lastname": "Ramírez",
+            "age": 17,
+            "birthday": "November 27"
+        },
+        {
+            "name": "Mónica",
+            "lastname": "Macal",
+            "age": 29,
+            "birthday": "March 23"
+        },
+        {
+            "name": "Óscar",
+            "lastname": "Ruíz",
+            "age": 30,
+            "birthday": "December 28"
+        },
+        {
+            "name": "Jaziel",
+            "lastname": "Ramírez",
+            "age": 34,
+            "birthday": "May 15"
+        },
+        {
+            "name": "Fernanda",
+            "lastname": "Heich",
+            "age": 29,
+            "birthday": "January 02"
+        },
+        {
+            "name": "Vania",
+            "lastname": "Ramírez",
+            "age": 29,
+            "birthday": "June 10"
+        }
+    ]
+}
