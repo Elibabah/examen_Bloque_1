@@ -10,5 +10,6 @@ let bootcampData = (data) => {
         console.log(friends)
         console.log(friends.name)
         document.getElementById("BootcampMembers").innerHTML += friends.name
+        document.getElementById("cumpleaños").innerHTML += friends.birthday
     }
 }
