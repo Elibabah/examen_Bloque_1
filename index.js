@@ -13,12 +13,13 @@ let bootcampData = (data) => {
         console.log(friends.birthday)
             //     document.getElementById("BootcampMembers").innerHTML += friends.name + " "
             //     document.getElementById("cumpleaños").innerHTML += `<li>${friends.birthday}<li>`
+
+
+
+        //Función para pintar datos iterados en el HTML
+        friends.name, friends.birthday = {
+            document.getElementById("BootcampMembers").innerHTML += friends.name + " "
+            document.getElementById("cumpleaños").innerHTML += `<li>${friends.birthday}<li>`
+        }
     }
 }
-
-
-
-//Función para pintar datos iterados en el HTML
-/*let imprimir = (name, age) = {
-
-}*/
