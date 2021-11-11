@@ -9,7 +9,7 @@ let bootcampData = (data) => {
     for (const friends of data.ourBootcamp) {
         console.log(friends)
         console.log(friends.name)
-        document.getElementById("BootcampMembers").innerHTML += friends.name
-        document.getElementById("cumpleaños").innerHTML += friends.birthday
+        document.getElementById("BootcampMembers").innerHTML += friends.name + " "
+        document.getElementById("cumpleaños").innerHTML += `<li>${friends.birthday}<li>`
     }
 }
