@@ -11,15 +11,15 @@ let bootcampData = (data) => {
         console.log(friends)
         console.log(friends.name)
         console.log(friends.birthday)
-            //     document.getElementById("BootcampMembers").innerHTML += friends.name + " "
-            //     document.getElementById("cumpleaños").innerHTML += `<li>${friends.birthday}<li>`
 
+        //Pintar dinámicamente en HTML
 
+        //Integrantes Bootcamp
+        let myMates = document.getElementById("BootcampMembers")
+        myMates.innerHTML += friends.name + " "
 
-        //Función para pintar datos iterados en el HTML
-        friends.name, friends.birthday = {
-            document.getElementById("BootcampMembers").innerHTML += friends.name + " "
-            document.getElementById("cumpleaños").innerHTML += `<li>${friends.birthday}<li>`
-        }
+        //Fechas de cumpleaños
+        let ourBirthdays = document.getElementById("cumpleaños")
+        ourBirthdays.innerHTML += `<li>${friends.birthday}<li>`
     }
 }
